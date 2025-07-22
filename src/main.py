@@ -4,6 +4,10 @@ from feature_engineering import extract_features
 from rule_engine import classify_headings
 import json
 
+## Docker paths 
+# INPUT_DIR = Path("/app/input")    
+# OUTPUT_DIR = Path("/app/output")  
+
 # Input/output directories on your Mac (no Docker now)
 INPUT_DIR = Path("/Users/amitanand/Desktop/challenge/Challenge_1a/input")
 OUTPUT_DIR = Path("/Users/amitanand/Desktop/challenge/Challenge_1a/output")
