@@ -1,0 +1,25 @@
+# Ignore Python virtual environments
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor/IDE files
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.idea/
+.vscode/
+
+# Do NOT ignore input, output, schema, sample_output, or code files
+!input/
+!output/
+!schema/
+!sample_output/ 
